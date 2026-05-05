@@ -1,0 +1,13 @@
+project:
+  name: "Titanic Survival Prediction"
+  target_column: "survived"
+  random_state: 42
+  test_size: 0.2
+  cv_folds: 5
+
+paths:
+  raw_data_dir: "data"
+  models_dir: "models"
+  best_model_file: "best_model.joblib"
+  metrics_file: "models/metrics.json"
+  confusion_matrix_file: "models/confusion_matrix.png"
